@@ -4,9 +4,10 @@ public class Person
     private int age;
 
     // TODO: Complete the non-default constructor
-    public Person(String iName, String iAge)
+    public Person(String iName, int iAge)
     {
-
+        name = iName;
+        age = iAge;
     }
 
     // TODO: Complete the default constructor using "this"
